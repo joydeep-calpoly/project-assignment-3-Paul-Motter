@@ -19,11 +19,11 @@ public class ParserSimpleTest {
      */
     @Test
     public void parserSimpleGoodTest() throws SecurityException, IOException{
-        ParserSimpleVisitor PS = new ParserSimpleVisitor("ParserSimpleTestLoggs/parserSimpleGoodTest.txt");
+        ParserParseVisitor PS = new ParserParseVisitor("ParserSimpleTestLoggs/parserSimpleGoodTest.txt");
         
         String input = new String(Files.readAllBytes(Paths.get("inputs2/simple.json")), StandardCharsets.UTF_8);
         
-        ArticleSimple result = PS.parseArticle(input).get(0);
+        ArticleSimple result = PS.parseSimple(input).get(0);
 
         assertEquals("""
             Article
@@ -41,11 +41,11 @@ public class ParserSimpleTest {
      */
     @Test
     public void parserSimpleBadTest1() throws SecurityException, IOException{
-        ParserSimpleVisitor PS = new ParserSimpleVisitor("ParserSimpleTestLoggs/parserSimpleBadTest1.txt");
+        ParserParseVisitor PS = new ParserParseVisitor("ParserSimpleTestLoggs/parserSimpleBadTest1.txt");
         
         String input = new String(Files.readAllBytes(Paths.get("inputs2/simpleBad1.json")), StandardCharsets.UTF_8);
         
-        ArrayList<ArticleSimple> result = PS.parseArticle(input);
+        ArrayList<ArticleSimple> result = PS.parseSimple(input);
         ArrayList<ArticleSimple> expected = new ArrayList<>();
         assertEquals(expected.size(), result.size());
     }
@@ -57,11 +57,11 @@ public class ParserSimpleTest {
      */
     @Test
     public void parserSimpleBadTest2() throws SecurityException, IOException{
-        ParserSimpleVisitor PS = new ParserSimpleVisitor("ParserSimpleTestLoggs/parserSimpleBadTest2.txt");
+        ParserParseVisitor PS = new ParserParseVisitor("ParserSimpleTestLoggs/parserSimpleBadTest2.txt");
         
         String input = new String(Files.readAllBytes(Paths.get("inputs2/simpleBad2.json")), StandardCharsets.UTF_8);
         
-        ArrayList<ArticleSimple> result = PS.parseArticle(input);
+        ArrayList<ArticleSimple> result = PS.parseSimple(input);
         ArrayList<ArticleSimple> expected = new ArrayList<>();
         assertEquals(expected.size(), result.size());
     }
@@ -73,11 +73,11 @@ public class ParserSimpleTest {
      */
     @Test
     public void parserSimpleBadTest3() throws SecurityException, IOException{
-        ParserSimpleVisitor PS = new ParserSimpleVisitor("ParserSimpleTestLoggs/parserSimpleBadTest3.txt");
+        ParserParseVisitor PS = new ParserParseVisitor("ParserSimpleTestLoggs/parserSimpleBadTest3.txt");
         
         String input = new String(Files.readAllBytes(Paths.get("inputs2/simpleBad3.json")), StandardCharsets.UTF_8);
         
-        ArrayList<ArticleSimple> result = PS.parseArticle(input);
+        ArrayList<ArticleSimple> result = PS.parseSimple(input);
         ArrayList<ArticleSimple> expected = new ArrayList<>();
         assertEquals(expected.size(), result.size());
     }
@@ -89,11 +89,11 @@ public class ParserSimpleTest {
      */
     @Test
     public void parserSimpleBadTest4() throws SecurityException, IOException{
-        ParserSimpleVisitor PS = new ParserSimpleVisitor("ParserSimpleTestLoggs/parserSimpleBadTest4.txt");
+        ParserParseVisitor PS = new ParserParseVisitor("ParserSimpleTestLoggs/parserSimpleBadTest4.txt");
         
         String input = new String(Files.readAllBytes(Paths.get("inputs2/simpleBad4.json")), StandardCharsets.UTF_8);
         
-        ArrayList<ArticleSimple> result = PS.parseArticle(input);
+        ArrayList<ArticleSimple> result = PS.parseSimple(input);
         ArrayList<ArticleSimple> expected = new ArrayList<>();
         assertEquals(expected.size(), result.size());
     }

@@ -21,8 +21,6 @@ class SourceStringVisitor implements SourceVisitor {
         return new String(url.openStream().readAllBytes(), StandardCharsets.UTF_8);
     }
 
-    
-
     /**
      * Returns a string of a JSON that can be parsed into Articles. Gotten from a .json file at filePath.
      * @param filePath is the filepath of the JSON file to read.
@@ -33,6 +31,5 @@ class SourceStringVisitor implements SourceVisitor {
      public String visit(File f) throws IOException{
         //Read file into utf-8
         return new String(Files.readAllBytes(f.toPath()), StandardCharsets.UTF_8);
-        //return new String(Files.readAllBytes(Paths.get(filePath)), StandardCharsets.UTF_8); 
     }
 }

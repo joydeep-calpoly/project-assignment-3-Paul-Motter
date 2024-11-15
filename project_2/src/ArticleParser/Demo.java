@@ -33,6 +33,8 @@ public class Demo {
                     continueParsing = false;
                     break;
             }
+            
+            if (!continueParsing) break;
 
             //Get an ArticleType and parse it.
             System.out.println("Select an article type to parse. Any other inputs will exit.\n[1] NewsAPI\n[2] SimpleArticle");
@@ -51,46 +53,13 @@ public class Demo {
                     break;
             }
 
-            //Parse and print the article.
+            //print the list of articles.
             if (articleList instanceof ArrayList<?>){
                 for (Object article: (ArrayList<?>) articleList){
                     System.out.println(article);
                 }
             }
-        } while (continueParsing);
-
-        // //-----Using ParserNewsAPI From File-----
-        // //Creates a newsAPI parser with a logger.
-        // ParserNewsAPIVisitor nAPI = new ParserNewsAPIVisitor("NewsAPIParserLog.txt");
-        // //Parses articles from files.
-        // String exampleArticleString = SourceStringVisitor.getStringFromFilepath("project_2/inputs1/example.json");
-        // ArrayList<Article> exampleArticels = nAPI.Visit(exampleArticleString);
-        // String badArticleString = SourceStringVisitor.getStringFromFilepath("project_2/inputs1/bad.json");
-        // ArrayList<Article> badArticels = nAPI.Visit(badArticleString);
-        // //Print out the resultant articles
-        // for(Article a: exampleArticels){
-        //     System.out.println(a);
-        // }
-
-        // for(Article a: badArticels){
-        //     System.out.println(a);
-        // }
-
-        // //-----Using ParserSimple from a File-----
-        // ParserSimpleVisitor parsSimple = new ParserSimpleVisitor("SimpleParserLog.txt");
-
-        // String simpleArticleString = SourceStringVisitor.getStringFromFilepath("project_2/inputs2/simple.json");
-        // ArticleSimple simpleArticle = parsSimple.Visit(simpleArticleString).get(0);
-        // System.out.println(simpleArticle); 
-
-        // //-----Using ParserNewsAPI From URL-----
-        // URL url = new URL("http://newsapi.org/v2/top-headlines?country=us&apiKey=582a575b54704b5fbfe7604922655cac");
-        // String urlArticlesString = SourceStringVisitor.getStringFromURL(url);
-        // ArrayList<Article> urlArticles = nAPI.Visit(urlArticlesString);
-        // for(Article a: urlArticles){
-        //     System.out.println(a);
-        // }
-    
+        } while (continueParsing);    
     }
     
 }

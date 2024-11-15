@@ -2,7 +2,14 @@ package ArticleParser;
 
 import java.io.IOException;
 
-//get rid
 public interface SourceClass {
-    public String accept(SourceVisitor sv) throws IOException;
+
+    /**
+     * Accepts a SourceVisitor to call visit().
+     * @param sv Most commonly a SourceStringVisitor whose visit() returns a String representation of the source.
+     * @return In the case of SourceStringVisitors it  returns a String representation of the source.
+     * @throws IOException
+     */
+    String accept(SourceVisitor sv) throws IOException;
+
 }

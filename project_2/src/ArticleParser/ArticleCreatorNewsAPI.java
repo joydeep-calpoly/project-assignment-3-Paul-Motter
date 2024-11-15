@@ -5,7 +5,11 @@ import java.util.ArrayList;
 
 public class ArticleCreatorNewsAPI extends ArticleCreator{
 
-    public ArticleCreatorNewsAPI(SourceClass s){
+    /**
+     * Calls the super constructor and passes the SourceClass.
+     * @param s SourceClass to be passed to the super constructor. 
+     */
+    ArticleCreatorNewsAPI(SourceClass s){
         super(s);
     }
 

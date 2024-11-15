@@ -2,6 +2,7 @@ package ArticleParser;
 
 import static org.junit.Assert.assertEquals;
 
+import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -19,15 +20,13 @@ public class ParserNewsAPItest {
      */
     @Test
     public void parsingGoodTest() throws SecurityException, IOException {
-
-        ParserNewsAPIVisitor parserNAPI = new ParserNewsAPIVisitor("ParserNewsAPItestLoggs/LoggerParsingGoodTest.txt");
+        ParserParseVisitor parser = new ParserParseVisitor("ParserNewsAPItestLoggs/LoggerParsingGoodTest.txt");
         
         String input = new String(Files.readAllBytes(Paths.get("inputs1/customGood.json")), StandardCharsets.UTF_8);
         
-        ArrayList<Article> result = parserNAPI.parseArticle(input);
+        ArrayList<Article> result = parser.parseNewsAPI(input);
 
         assertEquals(result.size(), 20);
-
     }
 
     /**
@@ -38,11 +37,11 @@ public class ParserNewsAPItest {
     @Test
     public void parsingBadTest() throws SecurityException, IOException {
     
-        ParserNewsAPIVisitor parserNAPI = new ParserNewsAPIVisitor("ParserNewsAPItestLoggs/LoggerParsingBadTest.txt");
+        ParserParseVisitor parserNAPI = new ParserParseVisitor("ParserNewsAPItestLoggs/LoggerParsingBadTest.txt");
     
         String input = new String(Files.readAllBytes(Paths.get("inputs1/customBad.json")), StandardCharsets.UTF_8);
 
-        ArrayList<Article> result = parserNAPI.parseArticle(input);
+        ArrayList<Article> result = parserNAPI.parseNewsAPI(input);
 
         assertEquals(0, result.size());
     }
@@ -55,11 +54,11 @@ public class ParserNewsAPItest {
     @Test
     public void parsingMixedGoodBad1Test() throws SecurityException, IOException {
 
-        ParserNewsAPIVisitor parserNAPI = new ParserNewsAPIVisitor("ParserNewsAPItestLoggs/LoggerParsingGoodBad1Test.txt");
+        ParserParseVisitor parserNAPI = new ParserParseVisitor("ParserNewsAPItestLoggs/LoggerParsingGoodBad1Test.txt");
         
         String input = new String(Files.readAllBytes(Paths.get("inputs1/customGoodBad1.json")), StandardCharsets.UTF_8);
         
-        ArrayList<Article> result = parserNAPI.parseArticle(input);
+        ArrayList<Article> result = parserNAPI.parseNewsAPI(input);
 
         //Build resultant array of articles into one string representation.
         StringBuilder stringResult = new StringBuilder();
@@ -87,11 +86,11 @@ public class ParserNewsAPItest {
     @Test
     public void parsingMixedGoodBad2Test() throws SecurityException, IOException {
 
-        ParserNewsAPIVisitor parserNAPI = new ParserNewsAPIVisitor("ParserNewsAPItestLoggs/LoggerParsingMixedGoodBad2Test.txt");
+        ParserParseVisitor parserNAPI = new ParserParseVisitor("ParserNewsAPItestLoggs/LoggerParsingMixedGoodBad2Test.txt");
 
         String input = new String(Files.readAllBytes(Paths.get("inputs1/customGoodBad2.json")), StandardCharsets.UTF_8);
         
-        ArrayList<Article> result = parserNAPI.parseArticle(input);
+        ArrayList<Article> result = parserNAPI.parseNewsAPI(input);
         
         //Build resultant array of articles into one string representation.
         StringBuilder stringResult = new StringBuilder();
@@ -120,11 +119,11 @@ public class ParserNewsAPItest {
     @Test
     public void parsingMixedGoodBad3Test() throws SecurityException, IOException {
 
-        ParserNewsAPIVisitor parserNAPI = new ParserNewsAPIVisitor("ParserNewsAPItestLoggs/LoggerParsingMixedGoodBad3Test.txt");
+        ParserParseVisitor parserNAPI = new ParserParseVisitor("ParserNewsAPItestLoggs/LoggerParsingMixedGoodBad3Test.txt");
 
         String input = new String(Files.readAllBytes(Paths.get("inputs1/customGoodBad3.json")), StandardCharsets.UTF_8);
     
-        ArrayList<Article> result = parserNAPI.parseArticle(input);
+        ArrayList<Article> result = parserNAPI.parseNewsAPI(input);
 
          //Build resultant array of articles into one string representation.
         StringBuilder stringResult = new StringBuilder();

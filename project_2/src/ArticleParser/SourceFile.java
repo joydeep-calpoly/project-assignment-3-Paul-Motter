@@ -6,11 +6,14 @@ import java.io.IOException;
 public class SourceFile implements SourceClass{
     private File f;
 
-    public SourceFile(File f){
+    /**
+     * Constructor to set the file f.
+     * @param f The file the user would like to use as a Source.
+     */
+    SourceFile(File f){
         this.f = f;
     }
 
-    //get rid
     @Override
     public String accept(SourceVisitor sv) throws IOException {
        return sv.visit(f);

@@ -5,7 +5,11 @@ import java.util.ArrayList;
 
 public class ArticleCreatorSimple extends ArticleCreator{
 
-    public ArticleCreatorSimple(SourceClass s){
+    /**
+     * Calls the super constructor and passes the SourceClass.
+     * @param s SourceClass to be passed to the super constructor. 
+     */
+    ArticleCreatorSimple(SourceClass s){
         super(s);
     }
 

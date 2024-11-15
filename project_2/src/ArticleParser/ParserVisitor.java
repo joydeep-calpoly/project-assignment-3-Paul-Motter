@@ -26,17 +26,17 @@ abstract class ParserVisitor{
     }
     
      /**
-      * Is a method for creating an Article simple from an ArticleCreatorSimple.
-      * @param acs defines the article to be parsed.
+      * Is a method for creating an ArticleSimple from an ArticleCreatorSimple.
+      * @param acs Defines the article to be parsed.
       * @return Returns an array with 1 or 0 ArticleSimple depending on if the article is bad and removed.
       * @throws IOException
       */
     abstract ArrayList<ArticleSimple> visit(ArticleCreatorSimple acs) throws IOException;
 
     /**
-     * Is a method for creating an Article simple from an ArticleCreatorNewsAPI.
-     * @param scndefines the article to be parsed.
-     * @return returns a list of articles where bad articles are removed.
+     * Is a method for creating an ArrayList<Article> from an ArticleCreatorNewsAPI.
+     * @param acn Object containing information on the article to be parsed.
+     * @return Returns a list of articles where bad articles are removed.
      * @throws IOException
      */
     abstract ArrayList<Article> visit(ArticleCreatorNewsAPI scn) throws IOException;
