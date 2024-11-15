@@ -1,0 +1,6 @@
+Oct 29, 2024 6:01:22 PM ArticleParser.ParserNewsAPI removeBadArticles
+WARNING: Article removed due to incomplete information.
+Oct 29, 2024 6:01:22 PM ArticleParser.ParserNewsAPI removeBadArticles
+WARNING: Article removed due to incomplete information.
+Oct 29, 2024 6:01:22 PM ArticleParser.ParserNewsAPI removeBadArticles
+WARNING: Article removed due to incomplete information.

@@ -1,0 +1,8 @@
+Nov 01, 2024 9:05:23 PM ArticleParser.ParserSimple removeBadArticles
+WARNING: ArticleSimple removed due to incomplete information.
+Nov 01, 2024 9:05:23 PM ArticleParser.ParserSimple removeBadArticles
+WARNING: ArticleSimple removed due to incomplete information.
+Nov 01, 2024 9:05:23 PM ArticleParser.ParserSimple removeBadArticles
+WARNING: ArticleSimple removed due to incomplete information.
+Nov 01, 2024 9:05:23 PM ArticleParser.ParserSimple removeBadArticles
+WARNING: ArticleSimple removed due to incomplete information.

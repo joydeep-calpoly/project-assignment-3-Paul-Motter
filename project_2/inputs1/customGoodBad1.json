@@ -1,0 +1,45 @@
+{
+    "status": "ok",
+    "totalResults": 3,
+    "articles": [
+      {
+        "source": {
+          "id": "ars-technica",
+          "name": "Ars Technica"
+        },
+        "author": "Samuel Axon",
+        "title": "It’s been 20 years since the launch of Mac OS X - Ars Technica",
+        "description": null,
+        "url": "https://arstechnica.com/gadgets/2021/03/its-been-20-years-since-the-launch-of-mac-os-x/",
+        "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2020/06/Screen-Shot-2020-06-22-at-11.27.17-AM-2-1-760x380.png",
+        "publishedAt": "2021-03-24T21:44:01Z",
+        "content": "Enlarge/ When presenting a new path forward, Apple CEO Tim Cook put the ARM transition up with the Mac's other big transitions: PowerPC, MacOS X, and Intel.\r\n40 with 35 posters participating\r\nIt was … [+2618 chars]"
+      },
+      {
+        "source": {
+          "id": "ars-technica",
+          "name": "Ars Technica"
+        },
+        "author": "Samuel Axon",
+        "title": "It’s been 20 years since the launch of Mac OS X - Ars Technica",
+        "description": "It's macOS 11 now, but the DNA is the same.",
+        "url": "https://arstechnica.com/gadgets/2021/03/its-been-20-years-since-the-launch-of-mac-os-x/",
+        "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2020/06/Screen-Shot-2020-06-22-at-11.27.17-AM-2-1-760x380.png",
+        "publishedAt": "2021-03-24T21:44:01Z",
+        "content": "Enlarge/ When presenting a new path forward, Apple CEO Tim Cook put the ARM transition up with the Mac's other big transitions: PowerPC, MacOS X, and Intel.\r\n40 with 35 posters participating\r\nIt was … [+2618 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CNET"
+        },
+        "author": "Amanda Kooser",
+        "title": "NASA helicopter took a piece of the Wright brothers' plane to Mars - CNET",
+        "description": "NASA is gearing up for a dramatic Mars test flight of Ingenuity as soon as April 8.",
+        "url": "https://www.cnet.com/news/nasa-helicopter-took-a-piece-of-the-wright-brothers-famous-plane-to-mars/",
+        "urlToImage": "https://www.cnet.com/a/img/dStwgUXqOegVqiqEKBBDjFjoh-0=/1200x630/2021/03/23/89da9de6-2dc4-4da1-8c9a-39742ec912ed/pia24448-1-16.jpg",
+        "publishedAt": "2021-03-24T21:43:00Z",
+        "content": "The Ingenuity helicopter sits exposed under the belly of the Perseverance rover on Mars.\r\nNASA/JPL-Caltech\r\nNASA has traced the lineage of its innovative Ingenuity Mars helicopter all the way back to… [+2524 chars]"
+      }
+    ]
+}
