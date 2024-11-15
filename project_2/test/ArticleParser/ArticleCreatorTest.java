@@ -10,7 +10,11 @@ import org.junit.Test;
 
 public class ArticleCreatorTest {
     
-    
+    /**
+     * Test getting a simple article from a file.
+     * @throws SecurityException
+     * @throws IOException
+     */
     @Test
     public void ArticleCreatorSimpleFromFileTest() throws SecurityException, IOException{
         //configure a parser for a Simple article from the file "inputs2/simple.json".
@@ -27,6 +31,11 @@ public class ArticleCreatorTest {
             result.toString());
     }
 
+    /**
+     * Test getting an NewsAPI article from a File.
+     * @throws SecurityException
+     * @throws IOException
+     */
     @Test
     public void ArticleCreatorNewsAPIFromFileTest() throws SecurityException, IOException{
         //configure a parser for a NewsAPI article from the file "inputs2/newsapi.json".
