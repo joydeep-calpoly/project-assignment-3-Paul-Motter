@@ -1,0 +1,110 @@
+{
+    "status": "ok",
+    "totalResults": 8,
+    "articles": [
+      {
+        "source": {
+          "id": "cnn",
+          "name": "CNN"
+        },
+        "author": "By <a href=\"/profiles/julia-hollingsworth\">Julia Hollingsworth</a>, CNN",
+        "title": null,
+        "description": "The coronavirus pandemic has brought countries to a standstill. Meanwhile, vaccinations have already started in some countries as cases continue to rise. Follow here for the latest.",
+        "url": "https://www.cnn.com/world/live-news/coronavirus-pandemic-vaccine-updates-03-24-21/index.html",
+        "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/200213175739-03-coronavirus-0213-super-tease.jpg",
+        "publishedAt": "2021-03-24T22:32:00Z",
+        "content": "A senior European diplomat is urging caution over the use of proposed new rules that would govern exports of Covid-19 vaccines to outside of the EU. The rules were announced by the European Commissio… [+2476 chars]"
+      },
+      {
+        "source": {
+          "id": "cnn",
+          "name": "CNN"
+        },
+        "author": "Ralph Ellis, CNN",
+
+        "description": "Boulder, Colorado, continued to mourn fallen Officer Eric Talley on Wednesday.",
+        "url": "https://www.cnn.com/2021/03/24/us/officer-talley-procession/index.html",
+        "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/210322232935-officer-eric-talley-headshot-super-tease.jpg",
+        "publishedAt": "2021-03-24T22:20:12Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "ars-technica",
+          "name": "Ars Technica"
+        },
+        "author": "Samuel Axon",
+        "title": "It’s been 20 years since the launch of Mac OS X - Ars Technica",
+        "description": null,
+        "url": "https://arstechnica.com/gadgets/2021/03/its-been-20-years-since-the-launch-of-mac-os-x/",
+        "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2020/06/Screen-Shot-2020-06-22-at-11.27.17-AM-2-1-760x380.png",
+        "publishedAt": "2021-03-24T21:44:01Z",
+        "content": "Enlarge/ When presenting a new path forward, Apple CEO Tim Cook put the ARM transition up with the Mac's other big transitions: PowerPC, MacOS X, and Intel.\r\n40 with 35 posters participating\r\nIt was … [+2618 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CNET"
+        },
+        "author": "Amanda Kooser",
+        "title": "NASA helicopter took a piece of the Wright brothers' plane to Mars - CNET",
+
+        "url": "https://www.cnet.com/news/nasa-helicopter-took-a-piece-of-the-wright-brothers-famous-plane-to-mars/",
+        "urlToImage": "https://www.cnet.com/a/img/dStwgUXqOegVqiqEKBBDjFjoh-0=/1200x630/2021/03/23/89da9de6-2dc4-4da1-8c9a-39742ec912ed/pia24448-1-16.jpg",
+        "publishedAt": "2021-03-24T21:43:00Z",
+        "content": "The Ingenuity helicopter sits exposed under the belly of the Perseverance rover on Mars.\r\nNASA/JPL-Caltech\r\nNASA has traced the lineage of its innovative Ingenuity Mars helicopter all the way back to… [+2524 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CNBC"
+        },
+        "author": "Pippa Stevens",
+        "title": "Ever Given, the massive cargo ship that ran aground in the Suez Canal, is still stuck - CNBC",
+        "description": "The Ever Given, which become lodged in the Suez Canal, is still stuck, halting traffic in one of the world's busiest waterways.",
+        "url": null,
+        "urlToImage": "https://image.cnbcfm.com/api/v1/image/106859004-1616621090207-evergren.jpg?v=1616621218",
+        "publishedAt": "2021-03-24T21:39:00Z",
+        "content": "The massive container ship that ran aground in the Suez Canal, halting traffic in one of the world's busiest waterways, is still stuck after little progress appeared to be made on Wednesday to dislod… [+1334 chars]"
+      },
+      {
+        "source": {
+          "id": "usa-today",
+          "name": "USA Today"
+        },
+        "author": "Rebecca Morin",
+        "title": "Vice President Kamala Harris to lead White House efforts to stem migration at the border - USA TODAY",
+        "description": "Vice President Kamala Harris will  work on establishing a partnership with Mexico and the northern triangle of Honduras, Guatemala and El Salvador.",
+        
+        "urlToImage": "https://www.gannett-cdn.com/presto/2021/03/24/USAT/916b6cbc-bebc-4475-b510-4890de28baa7-GTY_1308935420.jpg?crop=5105,2872,x0,y0&width=3200&height=1680&fit=bounds",
+        "publishedAt": "2021-03-24T21:33:45Z",
+        "content": "The footage was released by the U.S. Customs and Border Protection as media has been denied access to border facilities.\r\nUSA TODAY\r\nWASHINGTON  As the Biden administration grapples with the growing … [+4575 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "New York Times"
+        },
+        "author": "Matina Stevis-Gridneff",
+        "title": "With a Police Raid and the Threat of Export Curbs on Vaccines, the E.U. Plays Tough - The New York Times",
+        "description": "The bloc is tightening export rules in a bid to speed up its disappointing Covid inoculation campaign and stem political criticism.",
+        "url": "https://www.nytimes.com/2021/03/24/world/europe/vaccine-European-Union-export.html",
+        "urlToImage": "https://static01.nyt.com/images/2021/03/24/world/24virus-eu-vaccines1/merlin_185399754_896581dd-53fb-4193-a666-575141df9541-facebookJumbo.jpg",
+        "publishedAt": null,
+        "content": "E.U. officials said the new rules would allow a degree of discretion, meaning they wont result in a blanket ban on exports, and the officials still expected many exports to continue.\r\nBut the measure… [+1113 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "NPR"
+        },
+        "author": "Rachel Treisman",
+        "title": "Historic Image Of Black Hole In Polarized Light From Event Horizon Telescope - NPR",
+        "description": "The Event Horizon Telescope project, which produced the world's first image of a black hole in 2019 in the M87 galaxy, unveiled a new view of its magnetic fields as captured by polarized light.",
+        "url": "https://www.npr.org/2021/03/24/980896706/stunning-new-image-of-black-hole-reveals-surrounding-magnetic-fields",
+        "urlToImage": "https://media.npr.org/assets/img/2021/03/24/black-hole_wide-9e71068489f46bf5fad165a35cfa0be937b0e968.jpg?s=1400",
+        
+        "content": "The Event Horizon Telescope collaboration, which released the world's first image of a black hole in 2019, unveiled a new view on Wednesday showing how the object at the center of the M87 galaxy look… [+4196 chars]"
+      }
+    ]
+  }
